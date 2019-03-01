@@ -109,17 +109,64 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+ /*#f5f5f5d6*/
     position: relative;
 }
+.container-wrapper {
+    /*background-color: #881e08;*/
+     /*#441c1a;*/
+    color: white;
+     background: url('../images/monkees.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
+    display: flex;
+    
+ /*#f5f5f5d6*/
+    position: relative;
+}
+.container-wrapper--blue {
+    /*background-color: #881e08;*/
+     /*#441c1a;*/
+    color: white;
+     background: url('../images/monkees.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    
+ /*#f5f5f5d6*/
+    position: relative;
+}
 .opaque-overlay {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    opacity:.8;
+    
+}
+#overlay-color-main{
+    background-color: #0138ff70;
+}
+#overlay-color-media{
+    background-color: #ff1010bf;
+}
+ 
+#overlay-color-tour{
+    background-color: #cbe6efd6;
+}
+#overlay-color-book{
+     background-color: #efe80fb8;
+}
+
+#overlay-color-member{
+     background-color:#999;
 }
 
 /*jumbotron */
@@ -211,16 +258,8 @@ body {
 }
 
 /*media section */
-.container-wrapper--red {
-    background-color: #881e08;
-     /*#441c1a;*/
-    color: white;
-}
 
-.container-wrapper--blue {
-    background-color: #cbe6ef;
-    color: white;
-}
+
 .container-wrapper--yellow {
     background-color: #efe80fb8;
     color: white;
@@ -377,8 +416,13 @@ tbody>tr,tbody>tr>td
      font-weight: bold;
 }
 tbody>tr:hover{
-    background-color: #333;
+    background-color: #31708f;
+    /*opacity:1;*/
    
+}
+tr:hover{
+     background-color: #31708f;
+    /*opacity:1;*/
 }
 
 /*Booking section*/
@@ -436,3 +480,8 @@ footer{
     -webkit-transition:all .35s ease-in-out;
     -o-transition:all .35s ease-in-out;;
 }
+
+.row{
+    padding-bottom: 5%;
+}
+
