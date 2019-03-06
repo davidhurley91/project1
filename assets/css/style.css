@@ -350,7 +350,7 @@ label {
 /* modal window */
 #modal-window{
       position: fixed;
-  top: 5%;
+  top: -2.4%;
   bottom: 0;
   left: 0;
   right: 0;
@@ -363,14 +363,14 @@ label {
 #modal-window:target{
     visibility: visible;
   opacity: 1;
-    
+    z-index:2;
 }
 
 #window-popup{
      margin: 70px auto;
   padding: 20px;
   background: #881e08;
-  border-radius: 5px;
+  border-radius: 70px;
   width: 80%;
   height:80%;
   position: relative;
@@ -402,7 +402,8 @@ label {
 
 #video-modal{
     width:100%;
-    padding:5%;
+    padding:2%;
+    border-radius: 50px;
 }
 /*tour section*/
 
